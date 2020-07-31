@@ -49,3 +49,4 @@ function getAPRSSymbolImageTag(symbol, size = 24) {
 }
 
 exports.getAPRSSymbolImageTag = getAPRSSymbolImageTag;
+exports.getAPRSSymbolImageTagByAddress = getAPRSSymbolImageTagByAddress;
