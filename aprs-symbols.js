@@ -47,3 +47,5 @@ function getAPRSSymbolImageTag(symbol, size = 24) {
     const address = getAPRSSymbolAddress(symbol);
     return getAPRSSymbolImageTagByAddress(address, size);
 }
+
+exports.getAPRSSymbolImageTag = getAPRSSymbolImageTag;
