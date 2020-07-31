@@ -31,7 +31,7 @@ function getAPRSSymbolAddress(symbol) {
  * */
 function getAPRSSymbolImageTagByAddress(address, size = 24) {
     if (typeof address === 'undefined' || !Array.isArray(address) || address.length !== 3) {
-        return false;
+        return "<span>?<span>";
     }
     return "<i class='aprs-table" + address[0] + "-" + size + " aprs-address-" + size + "-" + address[1] + "-" + address[2] + "'></i>";
 }
