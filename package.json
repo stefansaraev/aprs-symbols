@@ -1,6 +1,6 @@
 {
-  "name": "@smarek/aprs-symbols",
-  "version": "0.0.2",
+  "name": "@stefansaraev/aprs-symbols",
+  "version": "0.0.3",
   "description": "CSS module to render APRS symbol tables, with optional JS helpers",
   "main": "aprs-symbols.js",
   "files": [
@@ -19,24 +19,9 @@
     "aprs-symbols-128-1.png",
     "aprs-symbols-128-2.png"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smarek/aprs-symbols.git"
-  },
   "keywords": [
     "aprs"
   ],
   "author": "Marek Sebera",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/smarek/aprs-symbols/issues"
-  },
-  "homepage": "https://smarek.github.io/aprs-symbols/",
-  "funding": {
-    "type": "individual",
-    "url": "https://github.com/sponsors/smarek"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "license": "MIT"
 }
